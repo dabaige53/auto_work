@@ -1,7 +1,7 @@
 # GitHub + Linear 协作工作流
 
 ## 1. 工作流概述
-通过 GitHub CLI 与 Linear 集成，实现从 Issue 认领、本地开发到 PR 自动关联及任务状态同步的完整闭环。
+通过 GitHub CLI 与 Linear 集成，实现从 Issue 认领、本地开发到 PR 自动关联及任务状态同步的完整闭环。123
 
 ## 2. 前置条件
 - 已克隆仓库：`dabaige53/auto_work`
@@ -56,15 +56,15 @@ gh pr merge --merge --delete-branch
 
 ## 4. 快速命令速查表
 
-| 操作 | 命令 |
-| :--- | :--- |
-| 同步主分支 | `git pull origin main` |
-| 创建新分支 | `git checkout -b DATA-XXX-feature-name` |
-| 提交代码 | `git commit -m "DATA-XXX: description"` |
-| 推送代码 | `git push -u origin <branch-name>` |
-| 创建 PR | `gh pr create --title "..." --body "..."` |
-| 合并 PR | `gh pr merge --merge --delete-branch` |
-| 查看 PR 状态 | `gh pr status` |
+| 操作         | 命令                                      |
+| :----------- | :---------------------------------------- |
+| 同步主分支   | `git pull origin main`                    |
+| 创建新分支   | `git checkout -b DATA-XXX-feature-name`   |
+| 提交代码     | `git commit -m "DATA-XXX: description"`   |
+| 推送代码     | `git push -u origin <branch-name>`        |
+| 创建 PR      | `gh pr create --title "..." --body "..."` |
+| 合并 PR      | `gh pr merge --merge --delete-branch`     |
+| 查看 PR 状态 | `gh pr status`                            |
 
 ## 5. 常见问题解答 (FAQ)
 
