@@ -4,7 +4,7 @@
 通过 GitHub CLI 与 Linear 集成，实现从 Issue 认领、本地开发到 PR 自动关联及任务状态同步的完整闭环。123
 
 ## 2. 前置条件123
-- 已克隆仓库：`sdabaige53/auto_work`
+- 已克隆仓库：`sdabaige53/123123auto_work`
 - 已安装并登录 GitHub CLI (`gh auth login`)
 - 已连接 Linear GitHub App
 - Linear 团队 ID：`DATA`（Issue 格式为 DATA-X）
