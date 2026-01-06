@@ -8,7 +8,7 @@
 - 已安装并登录 GitHub CLI (`gh auth login`)
 - 已连接 Linear GitHub App
 - Linear 团队 ID：`DATA`（Issue 格式为 DATA-X）
-123
+123ssss
 ## 3. 日常开发流程
 
 ### 第一步：同步代码
